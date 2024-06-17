@@ -82,6 +82,11 @@ function PublishPage() {
           ₹{downpayment} downpayment
         </p>
       </div>
+
+      <div className={styles.btnSection} style={{ marginTop: "15vh",marginLeft:"3vw",gap:"4vw" }}>
+        <button className={styles.backBtn}>BACK</button>
+        <button className={styles.continueBtn}>PUBLISH</button>
+      </div>
     </div>
   );
 }
