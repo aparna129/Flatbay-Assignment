@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.page1Section1 {
+  display: flex;
+}
+.backarrow {
+  width: 30px;
+  height: 40px;
+}
+.text {
+  margin-left: 2vw;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 1.2vh;
+}
+.border {
+  border: 0.2px solid #aaafb2;
+  margin-left: 2vw;
+  width: auto;
+  flex-grow: 1;
+  margin-top: 4.2vh;
+  height: 0vh;
+  display: inline-block;
+}
+.field {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+.inputBox {
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  width: 72vw;
+  padding-left: 5vw;
+  padding-right: 4vw;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.inputBox::placeholder {
+  color: #aaafb2;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+}
+.threeBoxes {
+  display: flex;
+  justify-content: space-between;
+  width: 82vw;
+}
+.inputBox3 {
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  width: 23vw;
+  text-align: center;
+  font-size: 18px;
+}
+.inputBox3::placeholder {
+  color: #aaafb2;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.icons {
+  height: 2vh;
+  width: 20px;
+}
+.gender {
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  width: 22.9vw;
+  padding-right: 0.8vw;
+  padding-left: 0.8vw;
+  font-size: 18px;
+}
+.btnSection {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3vw;
+}
+.backBtn {
+  width: 39vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  color: #574b7b;
+  border: 1px solid #574b7b;
+  border-radius: 6px;
+  background-color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+.continueBtn {
+  width: 39vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  background-color: #574b7b;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+.bhk {
+  display: flex;
+  gap: 4vw;
+  overflow-x: auto;
+  margin-top: -2vh;
+}
+.bhkBox {
+  padding-top: 1.6vh;
+  padding-bottom: 1.6vh;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 18px;
+  color: #aaafb2;
+  flex: 0 0 23vw;
+}
+
+.box {
+  padding-bottom: 2.5vh;
+  width: 80vw;
+  border: 1px dashed #dae1e5;
+  border-radius: 4px;
+  text-align: center;
+}
+.uploadedImage {
+  height: 20vh;
+  width: 80vw;
+}
+.addText {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaafb2;
+}
+.amountBox {
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  width: 30vw;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: -5vh;
+}
+.amountBox::placeholder {
+  color: #aaafb2;
+}
+.availability {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -2vh;
+}
+.availabilityBox {
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  width: 25vw;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 600;
+}
+.day {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaafb2;
+}
+.fromTo {
+  padding-top: 1.7vh;
+  padding-bottom: 1.7vh;
+  border: 1px solid #dae1e5;
+  border-radius: 4px;
+  width: 39vw;
+  text-align: center;
+}
+.fromTo::placeholder {
+  color: #9a9a9a;
+}
+.available {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  display: inline-block;
+  color: 313233;
+  margin-left: 0.5vw;
+}
+.amenitiesBox {
+  border: 1px solid #d9d9d9;
+  padding-top: 1.7vh;
+  padding-bottom: 0.5vh;
+  width: 25.5vw;
+  border-radius: 12px;
+  text-align: center;
+}
+.amenitiesText {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: #313233;
+  margin-top: 1vh;
+}
+.publishedBox {
+  padding-bottom: 2vh;
+  width: 82vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  box-shadow: 0px 0px 12px 0px #00000014;
+  border-radius: 20px;
+  margin-top: 5vh;
+}
+.publishedImage {
+  height: 15vh;
+  width: 76vw;
+  border-radius: 12px;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1.5vh;
+}
+.details1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 2vw;
+}
+.numbers {
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: none;
+  color: #c2c3c5;
+  height: 6vh;
+  width: 12vw;
+}
+.borderStepper {
+  border: 2px solid #f2f2f2;
+  display: inline-block;
+  width: 10vw;
+}

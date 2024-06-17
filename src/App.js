@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import FirstPage from "./Pages/FirstPage";
+import PublishPage from "./Pages/PublishPage";
+import Stepper from "./Pages/Stepper";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      style={{
+        marginLeft: "5vw",
+        marginTop: "5vh",
+        marginRight: "5vw",
+        marginBottom: "5vh",
+      }}
+    >
+      <Routes>
+        <Route path="/" element={<FirstPage />}></Route>
+        <Route path="/steps" element={<Stepper />}></Route>
+        <Route path="/publish" element={<PublishPage />}></Route>
+      </Routes>
     </div>
   );
 }
